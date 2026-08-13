@@ -1,0 +1,12 @@
+# Normalize line endings
+# Text file normalization
+# Project-specific overrides
+*.jpeg binary
+go.sum linguist-generated
+src/** linguist-detectable
+
+*.min.css linguist-generated
+
+examples/site/*.html linguist-vendored
+src/**/*.tsx linguist-detectable
+examples/site/** linguist-vendored
